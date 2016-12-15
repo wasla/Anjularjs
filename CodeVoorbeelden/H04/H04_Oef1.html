@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Master-Detail views met autogegevens</title>
+  <!--<link href="../css/bootstrap.css" rel="stylesheet"/> -->
+    <link href="../css/autoweb.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+
+<div id="container">
+    <div id="header"> </div>
+        <div  id="middle">
+            <div ng-view id="leftmiddle">
+
+        </br>
+        </br>
+            </div>
+       </div>
+    <div id="footer">
+
+            <table width="50%">
+                <th><a href="#/home" class="btn btn-lg btn-success">Home</a></th>
+                <th><a href="#/partner">Mercedes Partners</a></th>
+            </table>
+
+
+
+
+    </div>
+</div>
+
+
+<!-- ***************-->
+<!-- Vendor scripts -->
+<!-- ***************-->
+<script src="../js/vendor/angular/angular.js"></script>
+<script src="../js/vendor/angular-route/angular-route.js"></script>
+
+<!-- ***************-->
+<!-- Custom scripts -->
+<!-- ***************-->
+
+<script src="app/h4_Oef1_app.js"></script>
+<script src="controllers/h4_Oef_1_homeController.js"></script>
+<script src="controllers/h4_Oef_1_detailController.js"></script>
+<!--<script src="controllers/h5_Oef_1_partnerController.js"></script>-->
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container"
+     ng-init="names=['John', 'Bob' , 'Sandra' , 'Harray']">
+    <h1>ng-init en ng-repeat</h1>
+    <ul>
+        <!foreach-->
+        <li ng-repeat="firstName in names">Hello {{ firstName }}
+
+        </li>
+
+    </ul>
+
+</div>
+<script src="../../angular.min.js"></script>
+
+</body>
+</html>

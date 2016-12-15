@@ -1,0 +1,34 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+	<title>Voorbeelden Values en Constants</title>
+	<link href="../css/bootstrap.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container" ng-controller="myController as myCtrl">
+	<h1>Oef 2</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut autem, consectetur, corporis dolorum
+		ducimus ea eveniet expedita impedit molestiae nisi non omnis pariatur quaerat ratione, rem sit suscipit
+		temporibus.</p>
+
+	<!-- Voorbeeld van een value -->
+	<footer>
+		<hr />
+		<h4> (C) 2015 - {{ myCtrl.companyName }}</h4>
+		<h3>Appversie: {{ myCtrl.appVersion }}</h3>
+	</footer>
+</div>
+<!-- ***************-->
+<!-- Vendor scripts -->
+<!-- ***************-->
+<script src="../js/vendor/angular/angular.js"></script>
+
+<!-- ***************-->
+<!-- Custom scripts -->
+<!-- ***************-->
+<script src="services/H5_Oef_2_appConstants.js"></script>
+<script src="services/H5_Oef_2_appValue.js"></script>
+<script src="controllers/H5_Oef_2_myController.js"></script>
+
+</body>
+</html>

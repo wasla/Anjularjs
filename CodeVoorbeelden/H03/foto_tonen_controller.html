@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>AngularJS Filters</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <style>
+        img
+        {
+            width: 150px;
+            height: 100px;
+
+        }
+    </style>
+</head>
+<body>
+
+
+
+<div class="container" ng-controller="myController">
+
+    <h1>Oefening1</h1>
+    <p>
+        <input type="checkbox" ng-model="reversed" />Omgekeerd sorteren
+    </p>
+    <table border="1" width=50%>
+        <tr>
+            <th>
+                  Name
+            </th>
+            <td>
+                Foto
+            </td>
+        </tr>
+        <tr ng-repeat="person in persons | orderBy : 'name' : reversed ">
+            <td>
+                {{ person.name }}
+
+            </td>
+            <td>
+                <img ng-src="{{ person.foto }}">
+            </td>
+        </tr>
+
+    </table>
+</div>
+
+
+<!-- ***************-->
+<!-- Vendor scripts -->
+<!-- ***************-->
+<script src="../js/vendor/angular/angular.js"></script>
+
+<!-- ***************-->
+<!-- Custom scripts -->
+<!-- ***************-->
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myController',
+            function ($scope) {
+                $scope.persons = [
+                     {'name' : 'Jonas', foto : '../img/Jonas.jpg'}
+                    ,{'name' : 'Emma', foto: '../img/Emma.jpg'}
+                    , {'name' : 'Bjorn',foto:  '../img/Bjorn.jpg'}];
+                $scope.reversed = true;
+            });
+
+</script>
+</body>
+</html>

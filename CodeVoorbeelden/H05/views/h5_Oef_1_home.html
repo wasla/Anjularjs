@@ -1,0 +1,32 @@
+<div>
+    <h1>Kies een auto</h1>
+    <!-- 1. De lijst met autos -->
+    <table>
+        <tr>
+            <th>Id</th>
+            <th> Omschrijving</th>
+            <th> Prijs </th>
+            <th></th>
+            <th></th>
+            <th> Type </th>
+        </tr>
+        <tr ng-repeat="auto in homeCtrl.autos">
+            <td > {{auto.id}} </td>
+            <td>
+                <a ng-href="#/detail/{{auto.id}}">
+                {{auto.omschrijving}} </a>
+            </td>
+            <td>{{auto.prijs}} </td>
+
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>{{auto.type}}</td>
+           <!-- <a ng-click="addCtrl.addAuto()">Toevoegen</a>-->
+            <td>  <a ng-href="#/del/{{auto.id}}" class="btn btn-primary">Delete</a>
+
+            </td>
+
+        </tr>
+    </table>
+</div>

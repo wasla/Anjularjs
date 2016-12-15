@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Oefening2</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container" ng-controller="myController">
+    <h1>Angular Calculator</h1>
+    <!-- 1. De lijst met namen -->
+    <p>
+        <input type="number" ng-model="getal1" class="input-lg"  />
+    </p>
+    <p>
+        <input type="number" ng-model="getal2" class="input-lg"  />
+    </p>
+   <div>
+       <button ng-click="clickMe()" class="btn btn-lg btn-primary" ng-module="res">Optellen</button>
+       <hr/>
+  {{ res }}
+
+   </div>
+
+
+
+
+
+</div>
+<!-- ***************-->
+<!-- Vendor scripts -->
+<!-- ***************-->
+<script src="../js/vendor/angular/angular.js"></script>
+<!-- ***************-->
+<!-- Custom scripts -->
+<!-- ***************-->
+<script>
+    // Een controller is gewoon een JavaScript-functie
+    var app = angular.module('myApp', []);
+    app.controller('myController',
+            function ($scope) {
+                // 1. array met namen
+                $scope.getal1 = 'getal1';
+                $scope.getal2 = 'getal2';
+
+
+
+                $scope.clickMe = function () {
+                   // alert($scope.getal1+ $scope.getal2);
+                  $scope.res =   $scope.getal1+ $scope.getal2;
+                };
+
+            });
+</script>
+</body>
+</html>

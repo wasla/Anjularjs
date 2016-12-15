@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Werken met Factory</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="h5_Oef_4_myapp.js"></script>
+    <script src="ng-slide-down.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Werken met een factory</h1>
+    <div ng-view class="head"></div>
+
+
+
+</div>
+<hr>
+<div ng-controller="MyCtrl"  ng-cloak >
+    <div ng-click="widgetExpandedLazy = !widgetExpandedLazy" class="head">
+        car
+    </div>
+    <div ng-slide-down="widgetExpandedLazy" lazy-render duration="1">
+        <div class="content">
+            Some awesome content here
+        </div>
+    </div>
+    <div class="footer">
+        After content
+    </div>
+    <div ng-click="widgetExpanded = !widgetExpanded" class="head">
+        Plane
+    </div>
+    <div ng-slide-down="widgetExpanded" duration="1">
+        <div class="content">
+            Some awesome content here
+        </div>
+    </div>
+    <div class="footer">
+        After content
+    </div>
+    <div ng-init="widgetExpandedLazyTrue = true" ng-click="widgetExpandedLazyTrue = !widgetExpandedLazyTrue" class="head">
+        Lazy, initial true
+    </div>
+    <div ng-slide-down="widgetExpandedLazyTrue" lazy-render duration="1">
+        <div class="content">
+            Some awesome content here
+        </div>
+    </div>
+    <div class="footer">
+        After content
+    </div>
+    <div ng-init="widgetExpandedTrue = true" ng-click="widgetExpandedTrue = !widgetExpandedTrue" class="head">
+        Non lazy, initial true
+    </div>
+    <div ng-slide-down="widgetExpandedTrue" duration="1">
+        <div class="content">
+            Some awesome content here
+        </div>
+    </div>
+    <div class="footer">
+        After content
+    </div>
+
+
+</div>
+
+
+<!-- ***************-->
+<!-- Vendor scripts -->
+<!-- ***************-->
+<script src="../js/vendor/angular/angular.js"></script>
+<script src="../js/vendor/angular-route/angular-route.js"></script>
+
+<!-- ***************-->
+<!-- Custom scripts -->
+<!-- ***************-->
+
+<script src="app/h5_Oef4_app.js"></script>
+<script src="controllers/h5_Oef_4_homeController.js"></script>
+<!--
+<script src="controllers/h5_Oef_4_myapp.js"></script>
+<script src="controllers/H5_Oef_4_ng-slide-down.js"></script>
+-->
+<!--<script src="controllers/h5_Oef_1_partnerController.js"></script>-->
+
+<!-- Factory -->
+<script src="services/H05_Oef4_Factory.js"></script>
+
+
+
+</body>
+</html>

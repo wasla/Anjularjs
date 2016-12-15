@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>H6 Oefening 1</title>
+	<link href="../css/bootstrap.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="container" ng-controller="myController as homeCtrl">
+	<h1>Oefening 1</h1>
+
+
+	<!-- 1. De lijst met namen -->
+	<table class="table table-bordered table-striped">
+		<tr>
+			<th>Id</th>
+			<th> Omschrijving</th>
+			<th> Prijs </th>
+			<th> Type </th>
+		</tr>
+		<tr ng-repeat="auto in homeCtrl.autos">
+			<td > {{auto.id}} </td>
+			<td>
+				<a ng-href="#/detail/{{auto.id}}">
+					{{auto.omschrijving}} </a>
+			</td>
+			<td>{{auto.prijs}} </td>
+
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>{{auto.type}}</td>
+			<!-- <a ng-click="addCtrl.addAuto()">Toevoegen</a>-->
+			<td> <a ng-href="#/del/{{$index}}">Delete</a>
+
+			</td>
+
+		</tr>
+	</table>
+	<!-- TODO: Error handling -->
+</div>
+
+
+<!-- ***************-->
+<!-- Vendor scripts -->
+<!-- ***************-->
+<script src="../js/vendor/angular/angular.js"></script>
+
+<!-- ***************-->
+<!-- Custom scripts -->
+<!-- ***************-->
+<script>
+	// Alle code in een bestand. Normaal gesproken zou u dit
+	// verspreiden over verschillende bestanden en mappen.
+
+	// 1. Module maken, nu inclusief ngSanitize.
+	angular.module('myApp', []);
+
+	// 2. Controller, factory en globals maken
+	angular.module('myApp')
+			.controller('myController', myController)
+			.factory('autoFactory', autoFactory)
+			.constant('GLOBALS', {
+				autoUrl: 'http://127.0.0.1:8000/api/autos'
+			});
+
+	// 3. Controller implementeren
+	myController.$inject = ['autoFactory'];
+	function myController(autoFactory) {
+		var vm = this;
+		vm.errorMsg = '';
+		vm.status = '';
+
+		autoFactory.getAutos()
+				.success(function (autos) {
+					vm.autos = autos;
+				})
+				.error(function (err, status) {
+					vm.errorMsg = err;
+					vm.status = status;
+				});
+	}
+
+	// 4. Factory implementeren, let op injectie van $http en GLOBALS
+	autoFactory.$inject = ['$http', 'GLOBALS'];
+	function autoFactory($http, GLOBALS) {
+		var factory = {};
+
+		factory.getAutos = function () {
+			return $http({
+				method: 'GET',
+				url: GLOBALS.autoUrl,
+				cache: true // <== Voorkom extra http-call door gegevens te cachen
+			});
+		};
+		return factory;
+	}
+</script>
+</body>
+</html>

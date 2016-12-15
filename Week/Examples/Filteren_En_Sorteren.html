@@ -1,0 +1,34 @@
+<!DOCTYPE html ng-app>
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<div class="container"
+     ng-init="persons=[{name:'John', lastname:'Visser'},
+     {name:'Bob', lastname:'Pillay'}, {name:'Sara', lastname:'Khan'}, {name:'Amina', lastname:'Sheik'}]">
+
+    <h1> Filteren en Sorteren </h1>
+
+    <p>
+        <input type="text" ng-model="naam"
+        class="input-lg"
+        placeholder="filter op naam"/>
+    </p>
+    <ul>
+        <li ng-repeat="person in persons | filter : { lastname: naam } as numResults ">
+            {{ person.name }} - {{ person.lastname  }}
+        </li>
+        <li ng-if="numResults.length ===0">
+            <strong>Geen resultaten gevonden ...</strong>
+        </li>
+    </ul>
+
+
+</div>
+<script src="../../angular.min.js"></script>
+</body>
+
+</html>

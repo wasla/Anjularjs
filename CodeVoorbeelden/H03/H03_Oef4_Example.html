@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Eenvoudige Controller</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container" ng-init="list=[
+            { name:'Computer Architecture', price:65 },
+            { name:'Advanced Composite Materials', price:45 },
+            { name:'Stategies Unplugged', price:43 },
+            { name:'Teaching Science', price:50 },
+            { name:'Challenging Times', price:22 }]"
+
+     ng-controller="myController">
+    <h1>Lijst met Boeken</h1>
+    <div>
+        <h3>Books & Prices</h3>
+
+        <!-- LOOP.-->
+        <ul ng-repeat="books in list">
+            <li>{{ books.name + ' - ' + (books.price | currency) }}</li>
+        </ul>
+
+    </div>
+
+    <div >
+        <input type="text" ng-model="name" placeholder="Enter the Book" /> -
+        <input type="text" ng-model="price" placeholder="Enter a Price" />
+
+        <p><button ng-click="add()">Add the Book</button></p>
+    </div>
+
+
+
+
+</div>
+
+
+<!-- ***************-->
+<!-- Vendor scripts -->
+<!-- ***************-->
+<script src="../js/vendor/angular/angular.js"></script>
+
+<!-- ***************-->
+<!-- Custom scripts -->
+<!-- ***************-->
+<script>
+    var myApp = angular.module('myApp', []);
+
+    myApp.controller('myController', ['$scope', function ($book) {
+                $book.add = function ()
+                {
+                    if (angular.isDefined($book.name) && $book.name != '' && $book.price != '')
+                    {
+                        // ADD A NEW ELEMENT.
+                        $book.list.push({ name: $book.name, price: $book.price });
+
+                        // CLEAR THE FIELDS.
+                        $book.name = '';
+                        $book.price = '';
+                    }
+                }
+            }]
+    );
+</script>
+</body>
+</html>

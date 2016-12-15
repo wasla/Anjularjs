@@ -1,0 +1,30 @@
+﻿<style>
+  input{
+    margin-bottom: 10px;
+  }
+</style>
+<div>
+	<div > <!--class="jumbotron"-->
+		<h1>
+			Nieuwe auto toevoegen</h1>
+		<!-- 2. Details per persoon -->
+		<input type="text" ng-model="addCtrl.auto.omschrijving" class="input-lg" placeholder="omschrijving"/><br />
+		<input type="text" ng-model="addCtrl.auto.prijs" class="input-lg" placeholder="prijs"/> <br />
+		<input type="text" ng-model="addCtrl.auto.type" class="input-lg" placeholder="type"/><br />
+		<input type="number" ng-model="addCtrl.auto.Basisprijs" class="input-lg" placeholder="basisprijs"/><br />
+		<input type="number" ng-model="addCtrl.auto.Verkeersbelasting" class="input-lg" placeholder="verkeersbelasting"/><br />
+		<input type="number" ng-model="addCtrl.auto.inverkeerstelling" class="input-lg" placeholder="inverkeerstelling"/><br />
+		<input type="number" ng-model="addCtrl.auto.gemid" class="input-lg" placeholder="gemid"/><br />
+		<input type="text" ng-model="addCtrl.auto.pic" class="input-lg" placeholder="pic"/><br />
+
+		<a ng-click="addCtrl.addAuto()">Toevoegen</a> <!-- class="btn btn-lg btn-primary"-->
+
+
+	</div>
+	<hr/>
+	<a href="#/home">Annuleren</a> <!--  class="btn btn-lg btn-warning"-->
+</div>
+<!--
+omschrijving: 'A 180', prijs: '24.242 Euro ', type: 'A',
+Basisprijs: 24800, Verkeersbelasting:250.00, inverkeerstelling: 500,gemid:5.20 , pic: '../img/A.png'
+-->

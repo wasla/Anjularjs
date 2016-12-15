@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Eenvoudige Controller</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container" ng-init="list=[
+            { voornaam:'Pieter', achternaam: 'Jans' },
+            { voornaam:'Michel', achternaam: 'Jakson' }]"
+
+     ng-controller="myController">
+
+    <div>
+        <h3>Lijst met Namen</h3>
+        <!-- LOOP.-->
+        <ul ng-repeat="person in list">
+            <li>{{ person.voornaam + ' - ' + (person.achternaam) }}</li>
+        </ul>
+
+    </div>
+
+    <div >
+        <p>
+            <input type="text" ng-model="voornaam" placeholder="voornaam..." />
+        </p>
+        <p>
+            <input type="text" ng-model="achternaam" placeholder="achternaam....." />
+        </p>
+
+
+
+        <br>
+        <p><button  class="btn btn-lg btn-primary" ng-click="add()">Nieuwe Person toevoegen</button></p>
+    </div>
+
+
+
+
+</div>
+
+
+<!-- ***************-->
+<!-- Vendor scripts -->
+<!-- ***************-->
+<script src="../js/vendor/angular/angular.js"></script>
+
+<!-- ***************-->
+<!-- Custom scripts -->
+<!-- ***************-->
+<script>
+    var myApp = angular.module('myApp', []);
+
+    myApp.controller('myController', ['$scope', function ($naam) {
+                $naam.add = function ()
+                {
+                    if (angular.isDefined($naam.voornaam) && $naam.voornaam != '' && $naam.achternaam != '')
+                    {
+                        // ADD A NEW ELEMENT.
+                        $naam.list.push({ voornaam: $naam.voornaam, achternaam: $naam.achternaam });
+
+                        // CLEAR THE FIELDS.
+                        $naam.voornaam = '';
+                        $naam.achternaam = '';
+                    }
+                }
+            }]
+    );
+</script>
+</body>
+</html>

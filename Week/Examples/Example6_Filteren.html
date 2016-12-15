@@ -1,0 +1,26 @@
+<!DOCTYPE html ng-app>
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<div class="container"
+     ng-init="persons=[{name:'John', lastname:'Visser'},
+     {name:'Bob', lastname:'Pillay'}]">
+
+    <h1> Filter Upperdase en lowerCase </h1>
+
+    <ul>
+        <li ng-repeat="person in persons | orderBy: 'name' ">
+            {{ person.name | uppercase }} - {{ person.lastname | lowercase }}
+        </li>
+    </ul>
+
+
+</div>
+<script src="../../angular.min.js"></script>
+</body>
+
+</html>

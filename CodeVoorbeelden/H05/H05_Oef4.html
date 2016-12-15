@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Werken met Factory</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+
+<body>
+
+<div>
+
+    <h1>Werken met een factory</h1>
+    <div ng-view></div>
+
+</div>
+<hr>
+ <h1></h1>
+
+
+<div ng-controller="MyCtrl"  ng-cloak>
+    <div ng-click="widgetExpandedLazy = !widgetExpandedLazy" class="head">
+        car
+    </div>
+    <div ng-slide-down="widgetExpandedLazy" lazy-render duration="1">
+        <div class="content">
+            <ul>
+                <li>wheels(4)</li>
+                <li>doors(4)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div ng-click="widgetExpanded = !widgetExpanded" class="head">
+        plane
+    </div>
+    <div ng-slide-down="widgetExpanded" duration="1">
+        <div class="content">
+            <ul>
+                <li>wings(2)</li>
+                <li>doors(2)</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div ng-init="widgetExpandedTrue = true" ng-click="widgetExpandedTrue = !widgetExpandedTrue" class="head">
+    boat
+</div>
+<div ng-slide-down="widgetExpandedTrue" duration="1">
+    <div class="content">
+        <ul>
+
+            <li>doors(1)</li>
+        </ul>
+    </div>
+</div>
+</div>
+
+
+<!-- ***************-->
+<!-- Vendor scripts -->
+<!-- ***************-->
+<script src="../js/vendor/angular/angular.js"></script>
+<script src="ng-slide-down.js"> </script>
+<script src="../js/vendor/angular-route/angular-route.js"></script>
+
+<!-- ***************-->
+<!-- Custom scripts -->
+<!-- ***************-->
+
+<script src="app/h5_Oef4_app.js"></script>
+<script src="controllers/h5_Oef_4_homeController.js"></script>
+<script src="controllers/h5_Oef_4_myapp.js"></script>
+
+<script src="controllers/H5_Oef_4_ng-slide-down.js"></script>
+<!--
+<script src="controllers/h5_Oef_4_myapp.js"></script>
+<script src="controllers/H5_Oef_4_ng-slide-down.js"></script>
+-->
+<!--<script src="controllers/h5_Oef_1_partnerController.js"></script>-->
+
+<!-- Factory -->
+<script src="services/H05_Oef4_Factory.js"></script>
+
+
+
+</body>
+</html>

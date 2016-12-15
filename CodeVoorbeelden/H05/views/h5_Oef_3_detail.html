@@ -1,0 +1,77 @@
+<div>
+    <div class="jumbotron">
+        <table>
+
+
+             <tr>
+                 <td></td>
+
+                 <td colspan="3">
+                     {{ detailCtrl.auto.omschrijving}}
+                 </td>
+                 <td></td>
+             </tr>
+            <tr>
+                <td rowspan="10">
+                    <img ng-src="{{ detailCtrl.auto.pic }}">
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                  Basisprijs
+                </td>
+                <td>
+                    <input type="text" value=" {{ detailCtrl.auto.Basisprijs }}">
+
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   Verkeersbelasting(jaarlijks)
+                </td>
+                <td>
+                    <input type="text" value="{{ detailCtrl.auto.Verkeersbelasting }}">
+
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Belasting op inverkeerstelling
+                </td>
+                <td>
+                    <input type="text" value=" {{ detailCtrl.auto.inverkeerstelling }}">
+
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gemid. verbruik (1/100 km)
+                </td>
+                <td>
+                    <input type="text" value="{{ detailCtrl.auto.gemid }}">
+
+
+                </td>
+            </tr>
+
+
+
+        </table>
+        <a href="#/add" class="btn btn-primary">Auto toevoegen</a>
+        <!--
+        <h1>Gegevens van: {{ detailCtrl.person.name }} {{ detailCtrl.person.lastname }}</h1>-->
+        <!-- 2. Details per persoon -->
+      <!--  <h2> Volledige naam: {{ detailCtrl.person.name}} {{ detailCtrl.person.lastname}} </h2>
+
+        <h2>ID: {{ detailCtrl.person.id }}</h2>
+        <strong>{{ detailCtrl.person.age}} jaar </strong>,
+        <a href="mailto:{{ detailCtrl.person.email }}">{{ detailCtrl.person.email }}</a> -->
+    </div>
+
+</div>
+<!--{id: 1, omschrijving: 'A 180', Basisprijs: 24800, Verkeersbelasting:250.00, inverkeerstelling: 500,gemid:5.20 , pic: '../img/A.png'},-->

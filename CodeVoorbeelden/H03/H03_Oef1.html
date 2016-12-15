@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="h3App">
+<head>
+    <title>Eenvoudige Controller</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container" ng-controller="myController">
+    <h1>Filteren op achternaam</h1>
+
+    <table>
+        <tr>
+            <th>Artikelnummer</th>
+            <th>Omschrijving</th>
+
+        </tr>
+        <tr ng-repeat="product in products | orderBy: 'Artikelnummer' ">
+
+            <td> <a href="#" ng-click="clickMe(product)">{{ product.artikelnummer }}</a></td>
+            <td>{{ product.omschrijving }}</td>
+
+        </tr>
+
+    </table>
+    </div>
+
+    <!--
+    <div>
+        <h3>
+            {{ product.artikelnummer }}
+            {{ product.verkoopprijs }}
+            {{ product.aankoopprijs }}
+        </h3>
+    </div>
+</div>-->
+
+
+<!-- ***************-->
+<!-- Vendor scripts -->
+<!-- ***************-->
+<script src="../js/vendor/angular/angular.js"></script>
+
+<!-- ***************-->
+<!-- Custom scripts -->
+<!-- ***************-->
+<script>
+    // Een controller is gewoon een JavaScript-functie
+    var app = angular.module('h3App', []);
+    app.controller('myController',
+            function ($scope) {
+                $scope.products = [
+                    { artikelnummer: '000001', omschrijving: 'Tandenborstel' ,verkoopprijs: '3,25', aankoopprijs: '1,50' },
+                    { artikelnummer: '000002', omschrijving: 'Handdoek',verkoopprijs: '4,75', aankoopprijs: '2,50' },
+                    { artikelnummer: '000003', omschrijving: 'Washandje',verkoopprijs: '1,20', aankoopprijs: '0,40' },
+                    {artikelnummer: '000004', omschrijving: 'Keukenrol',verkoopprijs: '1,75', aankoopprijs: '0,65'},
+                    { artikelnummer: '000005', omschrijving: 'Tandpasta',verkoopprijs: '0,65', aankoopprijs: '0,15' }];
+
+                $scope.clickMe = function (product) {
+                    alert('artikelnummer: '+ product.artikelnummer+' aankoopprijs: '+product.aankoopprijs+' verkoopprijs: '+product.verkoopprijs);
+                };
+
+               // $scope.clickMe($scope.products[0]);
+
+            });
+</script>
+</body>
+</html>

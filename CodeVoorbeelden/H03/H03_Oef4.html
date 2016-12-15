@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Eenvoudige Controller</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+<!--  ng-init="list=[
+            { voornaam:'Pieter', achternaam: 'Jans' },
+            { voornaam:'Michel', achternaam: 'Jakson' }]"-->
+<div class="container" ng-controller="myController  as ctrl">
+
+    <div>
+        <h3>Lijst met Namen</h3>
+        <!-- LOOP.-->
+        <ul ng-repeat="person in ctrl.persons">
+            <li>{{ person.voornaam }}{{ person.achternaam }}</li>
+        </ul>
+
+    </div>
+
+    <div >
+        <p>
+            <input type="text" ng-model="ctrl.voornaam" placeholder="voornaam..." />
+        </p>
+        <p>
+            <input type="text" ng-model="ctrl.achternaam" placeholder="achternaam....." />
+        </p>
+
+
+
+        <br>
+        <p><button  class="btn btn-lg btn-primary" ng-click="ctrl.add()">Nieuwe Person toevoegen</button></p>
+    </div>
+
+
+
+
+</div>
+
+
+<!-- ***************-->
+<!-- Vendor scripts -->
+<!-- ***************-->
+<script src="../js/vendor/angular/angular.js"></script>
+
+<!-- ***************-->
+<!-- Custom scripts -->
+<!-- ***************-->
+<script>
+    angular.module('myApp', [])
+            .controller('myController', [myController]);
+    function myController() {
+        // 1. cache de huidige controller ('this') in
+        // een variabele vm (=afkorting voor ViewModel)
+        var vm = this;
+
+          vm.persons=[
+        { voornaam:'Pieter', achternaam: 'Jans' },
+        { voornaam:'Michel', achternaam: 'Jakson' }];
+
+
+        vm.add = function () {
+/*
+            var newPerson = {
+                voornaam: vm.person.voornaam,
+                achternaam: vm.person.achternaam
+            };
+            */
+            if (angular.isDefined(vm.voornaam) && vm.voornaam != '' && vm.achternaam != '') {
+                vm.persons.push({voornaam: vm.voornaam, achternaam: vm.achternaam});
+                //vm.persons.push(newPerson);
+                //CLEAR THE FIELDS
+                vm.voornaam = '';
+                vm.achternaam = '';
+
+
+            }
+            ;
+            /*
+           vm.persons.push(newPerson);
+            //CLEAR THE FIELDS .
+            vm.person.voornaam ='';
+            vm.person.achternaam = '';
+             */
+        };
+
+
+
+    };
+
+
+
+
+   // var myApp = angular.module('myApp', []);
+    /*
+
+    myApp.controller('myController', ['$scope', function ($naam) {
+                $naam.add = function ()
+                {
+                    if (angular.isDefined($naam.voornaam) && $naam.voornaam != '' && $naam.achternaam != '')
+                    {
+                        // ADD A NEW ELEMENT.
+                        $naam.list.push({ voornaam: $naam.voornaam, achternaam: $naam.achternaam });
+
+                        // CLEAR THE FIELDS.
+                        $naam.voornaam = '';
+                        $naam.achternaam = '';
+                    }
+                }
+            }]
+    );*/
+</script>
+</body>
+</html>
