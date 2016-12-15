@@ -6,7 +6,12 @@
    <link href="../css/autoweb.css" rel="stylesheet"/>
    <!--<link href="../css/bootstrap.css" rel="stylesheet"/>  -->
 
-
+<style>
+    footer
+    {
+        color:#a5fb88;
+    }
+</style>
 
 </head>
 
@@ -21,17 +26,18 @@
         </br>
             </div>
        </div>
-    <div id="footer"  ng-controller="myController as myCtrl">
+    <div id="footer" >
 
             <table width="50%">
                 <th><a href="#/home" class="btn btn-lg btn-success">Home</a></th>
                 <th><a href="#/partner">Mercedes Partners</a></th>
             </table>
 
-            <hr />
-            <h4> (C) 2015 - {{ myCtrl.companyName }}</h4>
+        <hr />
+        <footer  ng-controller="myController as myCtrl">
+            <h4> (C) 2015 - {{ myCtrl.autoCompanyName }}</h4>
             <h3>Appversie: {{ myCtrl.appVersion }}</h3>
-
+        </footer>
 
 
 
@@ -61,11 +67,15 @@
 <!--<script src="controllers/h5_Oef_1_partnerController.js"></script>-->
 
 <!-- Factory -->
+<!--<script src="services/H5_Oef_2_appConstants.js"></script>-->
 <script src="services/H05_autoFactory.js"></script>
 
 
-<script src="services/H5_Oef_2_appConstants.js"></script>
+
+
 <script src="services/H5_Oef_2_appValue.js"></script>
+
 <script src="controllers/H5_Oef_2_myController.js"></script>
 </body>
+
 </html>

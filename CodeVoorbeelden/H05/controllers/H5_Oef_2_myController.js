@@ -6,14 +6,12 @@
 		.controller('myController', myController);
 
 	// 2. Globals injecteren
-	myController.$inject = ['GLOBALS', 'companyName'];
-	function myController(GLOBALS, companyName) {
-		var vm = this,
-			loggedIn = false;
-
+	myController.$inject = ['AUTOGLOBALS', 'autoCompanyName'];
+	function myController(AUTOGLOBALS, autoCompanyName) {
+		var vm = this;
 		// Gegevens uit de constante ophalen en toekennen aan variabelen
 
-		vm.appVersion = GLOBALS.appVersion;
-		vm.companyName = companyName;
+		vm.appVersion = AUTOGLOBALS.appVersion;
+		vm.autoCompanyName = autoCompanyName;
 	}
 })();

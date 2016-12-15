@@ -22,61 +22,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="H05_Oef1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/H05_Oef1.html">
+      <file leaf-file-name="H05_Oef_2b.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/H05_Oef_2b.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="423">
+              <caret line="69" column="64" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="h5_Oef_1_deleteController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/h5_Oef_1_deleteController.js">
+      <file leaf-file-name="script_0601.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H06/script_0601.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="332">
+              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="45" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="h5_Oef_3_homeController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/h5_Oef_3_homeController.js">
+      <file leaf-file-name="H5_Oef_2_appConstants.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/services/H5_Oef_2_appConstants.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="85">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="6" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="h5_Oef_1_detailController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/h5_Oef_1_detailController.js">
+      <file leaf-file-name="0505_appValue.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/services/0505_appValue.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="H5_Oef_2_appValue.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/services/H5_Oef_2_appValue.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0505_myController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/0505_myController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="H5_Oef_2_myController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/H5_Oef_2_myController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0504_app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/app/0504_app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="h5_Oef_1_homeController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/h5_Oef_1_homeController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="h5_Oef_1_home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/views/h5_Oef_1_home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -92,31 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="h5_Oef1_app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/app/h5_Oef1_app.js">
+      <file leaf-file-name="0505_appConstants.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/services/0505_appConstants.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="H05_autoFactory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/services/H05_autoFactory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteItemExample.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/DeleteItemExample.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="39" column="45" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="45" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -135,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CodeVoorbeelden/H04/views/h4_Oef_1_detail.html" />
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H04/views/h4_Oef_1_partners.html" />
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H04/H04_Oef1.html" />
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H04/controllers/h4_Oef_1_homeController.js" />
@@ -150,12 +149,7 @@
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/h5_Oef_1_addController.js" />
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/views/0503_add.html" />
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/views/h5_Oef_1_del.html" />
-        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/services/H5_Oef_2_appConstants.js" />
-        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/services/H5_Oef_2_appValue.js" />
-        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/H5_Oef_2_myController.js" />
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/H5_Oef_2.html" />
-        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/H05_Oef_2b.html" />
-        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/H05_Oef1.html" />
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/h5_Oef_3_homeController.js" />
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/h5_Oef_3_detailController.js" />
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/h5_Oef_3_addController.js" />
@@ -184,8 +178,14 @@
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/services/H05_autoFactory.js" />
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/DeleteItemExample.html" />
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/h5_Oef_1_deleteController.js" />
-        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/views/h5_Oef_1_home.html" />
         <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/app/h5_Oef1_app.js" />
+        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/views/h5_Oef_1_home.html" />
+        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/H05_Oef1.html" />
+        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/services/H5_Oef_2_appConstants.js" />
+        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/H5_Oef_2_myController.js" />
+        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/H05_Oef_2b.html" />
+        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/services/0505_appValue.js" />
+        <option value="$PROJECT_DIR$/CodeVoorbeelden/H05/services/H5_Oef_2_appValue.js" />
       </list>
     </option>
   </component>
@@ -200,10 +200,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="x" value="-7" />
+    <option name="width" value="814" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -277,7 +276,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="H05" />
+              <option name="myItemId" value="H06" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,10 +295,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="H05" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,18 +466,18 @@
       <workItem from="1481638467033" duration="5899000" />
       <workItem from="1481657222923" duration="2681000" />
       <workItem from="1481748311536" duration="1697000" />
-      <workItem from="1481815233135" duration="4289000" />
+      <workItem from="1481815233135" duration="8235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122839000" />
+    <option name="totallyTimeSpent" value="126785000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="814" height="867" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4235589" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -507,69 +502,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/CodeVoorbeelden/H05/services/0505_appConstants.js</url>
+          <line>17</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/views/ng-slide-down.js" />
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/test/ng-slide-down.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/h5_Oef_4_myapp.js" />
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/ng-slide-down.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/slidedown/ng-slide-down.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/sectional.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/H5_Oef_4_ng-slide-down.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/slidedown/H05_Oef4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/views/h5_Oef_3_partners.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/views/h5_Oef_3_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/slidedown/h5_Oef_4_myapp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -605,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/H05_Oef_2b.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/h5_Oef_4_myapp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -640,17 +578,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H06/script_0601.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="38" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H06/script_0603.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="34" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -679,6 +611,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="67" column="5" selection-start-line="54" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -686,6 +619,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -849,22 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/app/h5_Oef4_app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/views/h5_Oef_1_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/app/h5_Oef1_app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
@@ -873,10 +791,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/views/h5_Oef_1_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/H5_Oef_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="13" selection-start-line="14" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/H05_Oef1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/script_0505.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/app/0503_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/app/h5_Oef4_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/app/0504_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/0505_myController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H06/script_0601.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="45" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/controllers/H5_Oef_2_myController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/H05_Oef_2b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="69" column="64" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/services/H5_Oef_2_appConstants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/services/0505_appConstants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/services/0505_appValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeVoorbeelden/H05/services/H5_Oef_2_appValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding />
         </state>
       </provider>
