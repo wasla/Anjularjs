@@ -1,7 +1,7 @@
 (function () {
     'use strict';
     // 1. Module definieren
-    angular.module('myApp', ['ngRoute'])
+    angular.module('vehicleApp', ['ngRoute' ,'ng-slide-down'])
         .config(moduleConfig);
 
     // 2. Inject dependencies
@@ -9,18 +9,20 @@
 
     // 3. Routes configureren
     function moduleConfig($routeProvider) {
+
         $routeProvider.when('/', {
             templateUrl: 'views/h5_Oef_4_home.html',
-            controller: 'homeOef4Controller',
-            controllerAs: 'homeCtrl'
+            controller: 'vehicleController',
+            controllerAs: 'vehicleCtrl'
         })
             .when('/home', {
                 templateUrl: 'views/h5_Oef_4_home.html',
-                controller: 'homeOef4Controller',
-                controllerAs: 'homeCtrl'
+                controller: 'vehicleController',
+                controllerAs: 'vehicleCtrl'
             })
             .otherwise({
                 redirectTo: '/'
             });
     }
 })();
+

@@ -6,7 +6,12 @@
    <link href="../css/autoweb.css" rel="stylesheet"/>
    <!--<link href="../css/bootstrap.css" rel="stylesheet"/>  -->
 
-
+<style>
+    footer
+    {
+        color:#8a6d3b;
+    }
+</style>
 
 </head>
 
@@ -28,7 +33,10 @@
                 <th><a href="#/partner">Mercedes Partners</a></th>
             </table>
 
-
+        <footer  ng-controller="myController as myCtrl">
+            <h4> (C) 2015 - {{ myCtrl.autoCompanyName }}</h4>
+            <h3>Appversie: {{ myCtrl.appVersion }}</h3>
+        </footer>
 
 
     </div>
@@ -55,7 +63,9 @@
 
 <!-- Factory -->
 <script src="services/H05_Oef_3_autoService.js"></script>
+<script src="services/H5_Oef_2_appValue.js"></script>
 
+<script src="controllers/H5_Oef_2_myController.js"></script>
 
 
 </body>

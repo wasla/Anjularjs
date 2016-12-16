@@ -1,7 +1,7 @@
 // homeController.js
 (function() {
  "use strict";
- angular.module("vehicleApp", ['ng-slide-down'])
+ angular.module("vehicleApp")
  .controller('vehicleController', vehicleController);
 
  // 2. Factory injecteren

@@ -34,7 +34,7 @@
                 controller: 'addOef3Controller',
                 controllerAs: 'addCtrl'
             })
-            .when('/del', {
+            .when('/del/:id', {
                 templateUrl: 'views/h5_Oef_3_del.html',
                 controller: 'deleteOef3Controller',
                 controllerAs: 'delCtrl'

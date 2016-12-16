@@ -1,83 +1,62 @@
 <!DOCTYPE html>
-<html ng-app="myApp">
+<html ng-app="vehicleApp">
 <head>
+    <meta charset="utf-8" />
     <title>Werken met Factory</title>
+
+
     <link rel="stylesheet" href="style.css"/>
+
 </head>
 
 
 <body>
 
-<div>
-
+<div class="container">
     <h1>Werken met een factory</h1>
+
     <div ng-view></div>
 
 </div>
 <hr>
- <h1></h1>
+ <h1> main html </h1>
+
+<div  ng-controller="vehicleController as vehicleCtrl" ng-cloak>
+    <div ng-repeat="vehicle in vehicleCtrl.vehicles">
+        <div ng-click="widgetExpandedLazy = !widgetExpandedLazy" class="head">
 
 
-<div ng-controller="MyCtrl"  ng-cloak>
-    <div ng-click="widgetExpandedLazy = !widgetExpandedLazy" class="head">
-        car
-    </div>
-    <div ng-slide-down="widgetExpandedLazy" lazy-render duration="1">
-        <div class="content">
-            <ul>
-                <li>wheels(4)</li>
-                <li>doors(4)</li>
-            </ul>
+            {{ vehicle.name }}
+
         </div>
-    </div>
-
-    <div ng-click="widgetExpanded = !widgetExpanded" class="head">
-        plane
-    </div>
-    <div ng-slide-down="widgetExpanded" duration="1">
-        <div class="content">
-            <ul>
-                <li>wings(2)</li>
-                <li>doors(2)</li>
-            </ul>
+        <div ng-slide-down="widgetExpandedLazy" lazy-render duration="1">
+            <div class="content">
+                <ul>
+                    <li ng-repeat="(attribute, value) in vehicle.parts">
+                        {{attribute}} ({{value}})
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
-<div ng-init="widgetExpandedTrue = true" ng-click="widgetExpandedTrue = !widgetExpandedTrue" class="head">
-    boat
-</div>
-<div ng-slide-down="widgetExpandedTrue" duration="1">
-    <div class="content">
-        <ul>
 
-            <li>doors(1)</li>
-        </ul>
-    </div>
-</div>
-</div>
 
 
 <!-- ***************-->
 <!-- Vendor scripts -->
 <!-- ***************-->
 <script src="../js/vendor/angular/angular.js"></script>
-<script src="ng-slide-down.js"> </script>
 <script src="../js/vendor/angular-route/angular-route.js"></script>
+<script src="ng-slide-down.js"> </script>
+
 
 <!-- ***************-->
 <!-- Custom scripts -->
 <!-- ***************-->
 
-<script src="app/h5_Oef4_app.js"></script>
-<script src="controllers/h5_Oef_4_homeController.js"></script>
-<script src="controllers/h5_Oef_4_myapp.js"></script>
-
-<script src="controllers/H5_Oef_4_ng-slide-down.js"></script>
-<!--
-<script src="controllers/h5_Oef_4_myapp.js"></script>
-<script src="controllers/H5_Oef_4_ng-slide-down.js"></script>
--->
-<!--<script src="controllers/h5_Oef_1_partnerController.js"></script>-->
+<script src="app/h5_Oef_4_app.js"></script>
+<script src="controllers/h5_Oef_4_homeController2.js"></script>
 
 <!-- Factory -->
 <script src="services/H05_Oef4_Factory.js"></script>

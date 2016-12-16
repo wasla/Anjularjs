@@ -12,6 +12,7 @@
 
 	// 3. Routes configureren
 	function moduleConfig($routeProvider) {
+
 		$routeProvider.when('/', {
 			templateUrl: 'views/0503_home.html',
 			controller: 'homeController',

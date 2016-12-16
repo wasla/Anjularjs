@@ -64,8 +64,9 @@
 		}
 		//delete the selected auto
 		 this.deleteAuto = function (index) {
-			autos.splice(index,1); // -1 omdat de array zero-based is
+			 autos.splice(autos.indexOf(index),1);
 		}
 
 	}
 })();
+

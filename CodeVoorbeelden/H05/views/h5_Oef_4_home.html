@@ -1,7 +1,13 @@
 
-<div  ng-controller="MyCtrl"  ng-cloak>
-        <div ng-click="widgetExpandedLazy = !widgetExpandedLazy" class="head" ng-repeat="vehicle in homeCtrl.vehicles">
+<div>
+
+  <div  ng-controller="vehicleController as vehicleCtrl" ng-cloak>
+    <div ng-repeat="vehicle in vehicleCtrl.vehicles">
+        <div ng-click="widgetExpandedLazy = !widgetExpandedLazy" class="head">
+
+
             {{ vehicle.name }}
+
         </div>
         <div ng-slide-down="widgetExpandedLazy" lazy-render duration="1">
             <div class="content">
@@ -12,11 +18,14 @@
                 </ul>
             </div>
         </div>
+    </div>
+</div>
 
-      </div>
-<div>
+</div>
+<!--
 
-        <div ng-repeat="vehicle in homeCtrl.vehicles">
+<div  ng-controller="vehicleController as vehicleCtrl" ng-cloak>
+    <div ng-repeat="vehicle in vehicleCtrl.vehicles">
             {{ vehicle.name }}
             <ul>
                 <li ng-repeat="(attribute, value) in vehicle.parts">
@@ -24,20 +33,6 @@
                 </li>
             </ul>
         </div>
-    </div>
-<div>
-
-</div>
-
-<!--
-<div ng-app="vehicleApp" ng-controller="VehicleController">
-    <div ng-repeat="vehicle in vehicles">
-        {{ vehicle.name }}
-        <ul>
-            <li ng-repeat="(attribute, value) in vehicle.parts">
-                {{attribute}} ({{value}})
-            </li>
-        </ul>
     </div>
 </div>
 -->
